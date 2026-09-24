@@ -57,6 +57,7 @@
     align-items: center;
     justify-content: center;
     gap: 12px;
+    cursor: pointer;
 }
 
 .Rankinghero .container .hero_info .hero_btn .hash_btn button {
@@ -65,7 +66,7 @@
     background-color: rgba(162, 89, 255, 1);
     border-radius: 20px;
     border: none;
-
+    cursor: pointer;
 }
 
 .Rankinghero .container .hero_info .hero_btn .hash_btn button svg {

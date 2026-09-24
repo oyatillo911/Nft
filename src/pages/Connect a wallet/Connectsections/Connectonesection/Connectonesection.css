@@ -8,14 +8,78 @@
 
 .Connecthero .container {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
+    padding: 40px 0px;
 }
-.Connecthero .container .hero_auction{
+
+.Connecthero .container .hero_info h2{
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+    font-weight: 600;
+}
+.Connecthero .container .hero_info span{
+    color: rgba(133, 133, 132, 1);
+    font-size: 22px;
+    font-weight: 400;
+}
+.Connecthero .container .hero_auction {
     background-color: rgba(59, 59, 59, 1);
     padding: 30px;
+    border-radius: 20px;
+
 }
-.Connecthero .container .hero_auction .hero_clock{
+
+
+.Connecthero .container .hero_auction h4{
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+    padding: 0px 10px;
+}
+.Connecthero .container .hero_auction .auction_title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+    padding-bottom: 10px;
+}
+
+.Connecthero .container .hero_auction .hero_clock {
     display: flex;
     align-items: center;
+    /* gap: 10px; */
+}
+.Connecthero .container .hero_auction .hero_clock .hero_hour .multi_hour{
+    display: flex;
+    align-items: center;
+}
+.Connecthero .container .hero_auction .hero_clock .hero_hour h3{
+    color: rgba(255, 255, 255, 1);
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+}
+.Connecthero .container .hero_auction .hero_clock .hero_hour span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+}
+.Connecthero .container .hero_auction .bid_btn{
+    padding-top: 30px;
+}
+.Connecthero .container .hero_auction .bid_btn button{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.Connecthero .container .hero_auction .bid_btn button span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
 }

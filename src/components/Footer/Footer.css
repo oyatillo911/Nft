@@ -48,6 +48,7 @@ footer .container .footer_box .F-cards .F-icon .social {
 footer .container .footer_box .F-cards .F-icon .social svg {
     font-size: 25px;
     color: rgba(133, 133, 132, 1);
+    cursor: pointer;
 }
 
 footer .container .footer_box .F-cards .F-title {
@@ -123,6 +124,7 @@ footer .container .footer_box .F-cards .F-update .F-input button {
     border: none;
     position: absolute;
     right: 0px;
+    cursor: pointer;
 }
 
 footer .container .Use {

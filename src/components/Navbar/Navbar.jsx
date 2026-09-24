@@ -7,7 +7,7 @@ function Navbar() {
             <nav>
                 <div className="container">
                     <div className="nav_logo">
-                        <img src="/imgs/Logo.svg" alt="" />
+                        <NavLink to={"/"} ><img src="/imgs/Logo.svg" alt="" /></NavLink>
                     </div>
                     <div className="nav_left">
                         <ul className="links">

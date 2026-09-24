@@ -1,0 +1,112 @@
+.connect_one_section .container {
+    padding: 80px 0px 20px 0px;
+}
+
+.connect_one_section .container .one_info {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.connect_one_section .container .one_info h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.connect_one_section .container .one_info .one_btn button {
+    width: 267px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.connect_one_section .container .one_info .one_btn button svg {
+    color: rgba(162, 89, 255, 1);
+    font-size: 18px;
+}
+
+.connect_one_section .container .one_info .one_btn button span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.connect_one_section .container .one_box{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.connect_one_section .container .one_box .one_cards {
+    width: 31%;
+    background-color: #3B3B3BFF;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.connect_one_section .container .one_box .one_cards .one_logo {
+    width: 100%;
+}
+
+.connect_one_section .container .one_box .one_cards .one_logo img {
+    width: 100%;
+}
+
+.connect_one_section .container .one_box .one_cards .one_cards_info {
+    padding: 20px 30px 25px 30px;
+}
+
+.connect_one_section .container .one_box .one_cards .one_cards_info h5 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.connect_one_section .container .one_box .one_cards .one_cards_info .one_cards_profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 5px;
+}
+
+.connect_one_section .container .one_box .one_cards .one_cards_info .one_cards_profile span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+}
+
+.connect_one_section .container .one_box .one_cards .one_cards_info .one_title {
+    padding-top: 25px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.connect_one_section .container .one_box .one_cards .one_cards_info .one_title .price {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.connect_one_section .container .one_box .one_cards .one_cards_info .one_title .price span {
+    color: rgba(133, 133, 132, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+}
+.connect_one_section .container .one_box .one_cards .one_cards_info .one_title .price .Eth{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+}

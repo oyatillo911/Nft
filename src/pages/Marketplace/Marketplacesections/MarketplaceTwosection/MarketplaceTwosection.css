@@ -35,6 +35,8 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
+
 }
 
 .section_one .container .one_info .one_btn button svg {

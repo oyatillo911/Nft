@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .hero .container .hero_info .hero_btn button svg {

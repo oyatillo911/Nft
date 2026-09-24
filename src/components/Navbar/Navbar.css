@@ -36,6 +36,7 @@ nav .container .nav_left button{
     align-items: center;
     justify-content: center;
     gap: 12px;
+    cursor: pointer;
 }
 nav .container .nav_left button svg{
     font-size: 20px;
