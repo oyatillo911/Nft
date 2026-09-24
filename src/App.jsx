@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Marketplace from './pages/Marketplace/Marketplace'
 import Ranking from './pages/Rankings/Ranking'
 import Connect from './pages/Connect a wallet/Connect'
+import "./App.css"
 
 function App() {
   return (
