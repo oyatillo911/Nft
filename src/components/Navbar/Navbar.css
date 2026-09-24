@@ -1,0 +1,43 @@
+nav{
+    background-color: rgba(43, 43, 43, 1);
+}
+nav .container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+nav .container .nav_left{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+nav .container .nav_left ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+nav .container .nav_left ul li a{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav .container .nav_left button{
+   width: 152px;
+    height: 60px;
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+nav .container .nav_left button svg{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}

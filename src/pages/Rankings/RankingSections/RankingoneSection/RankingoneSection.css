@@ -1,0 +1,93 @@
+.Rankinghero {
+    width: 100%;
+}
+
+/* font-family: "Space Mono", monospace; */
+
+.Rankinghero img {
+    width: 100%;
+}
+
+.Rankinghero .container {
+    position: relative;
+}
+
+.Rankinghero .container .hero_profile {
+    position: absolute;
+    top: -80px;
+}
+
+.Rankinghero .container .hero_info {
+    width: 100%;
+ padding-top: 80px;
+ padding-bottom: 40px;
+    display: flex;
+    align-items: top;
+    /* gap: 100px; */
+    justify-content: space-between;
+}
+
+.Rankinghero .container .hero_info .animakid h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 51px;
+    font-weight: 600;
+}
+
+.Rankinghero .container .hero_info .animakid .bio span {
+    color: rgba(133, 133, 132, 1);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+}
+
+.Rankinghero .container .hero_info .animakid .bio p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 400;
+}
+.Rankinghero .container .hero_info .hero_btn{
+    display: flex;
+    align-items: top;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.Rankinghero .container .hero_info .hero_btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.Rankinghero .container .hero_info .hero_btn .hash_btn button {
+    width: 185px;
+    height: 60px;
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    border: none;
+
+}
+
+.Rankinghero .container .hero_info .hero_btn .hash_btn button svg {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+.Rankinghero .container .hero_info .hero_btn span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Rankinghero .container .hero_info .hero_btn .follow_btn button {
+    width: 145px;
+    height: 60px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.Rankinghero .container .hero_info .hero_btn .follow_btn button svg {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}

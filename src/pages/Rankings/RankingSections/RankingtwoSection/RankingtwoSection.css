@@ -1,0 +1,78 @@
+.Rankingonesection {
+    background-color: rgba(59, 59, 59, 1);
+}
+
+/* font-family: "Space Mono", monospace; */
+
+.Rankingonesection .container {
+    padding: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.Rankingonesection .container .card {
+    width: 27.5%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #2B2B2BFF;
+    margin-bottom: 30px;
+}
+
+.Rankingonesection .container .card .card_logo {
+    width: 100%;
+}
+
+.Rankingonesection .container .card .card_logo {
+    width: 100%;
+}
+
+.Rankingonesection .container .card .card_info {
+    padding: 25px 30px;
+}
+
+.Rankingonesection .container .card .card_info h5 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Rankingonesection .container .card .card_info .card_profile {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Rankingonesection .container .card .card_info .card_profile span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+}
+.Rankingonesection .container .card .card_info .one_title{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Rankingonesection .container .card .card_info .one_title .price{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.Rankingonesection .container .card .card_info .one_title .price span{
+    color: rgba(133, 133, 132, 1);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+}
+.Rankingonesection .container .card .card_info .one_title .price .Eth{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+}

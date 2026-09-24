@@ -1,0 +1,115 @@
+.hero .container {
+    padding: 80px 0px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.hero .container .hero_info {
+    width: 50%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero .container .hero_info h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 67px;
+    font-weight: 600;
+    width: 80%;
+    text-transform: capitalize;
+}
+
+.hero .container .hero_info p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero .container .hero_info .hero_btn button {
+    background-color: rgba(162, 89, 255, 1);
+    color: white;
+    width: 224px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero .container .hero_info .hero_btn button svg {
+    font-size: 18px;
+}
+
+.hero .container .hero_info .hero_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .container .hero_info .hero_box .H-cards {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero .container .hero_info .hero_box .H-cards h4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+}
+
+.hero .container .hero_info .hero_box .H-cards span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero .container .hero_logo {
+    width: 50%;
+    height: 510px;
+
+}
+
+.hero .container .hero_logo .hero_img {
+    width: 100%;
+}
+
+.hero .container .hero_logo .hero_img img {
+    width: 100%;
+    height: 400px;
+}
+
+.hero .container .hero_logo .H-logo_info {
+    padding: 20px;
+    background-color: rgba(59, 59, 59, 1);
+    margin: 0 auto;
+    max-width: 85.4%;
+    height: 110px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.hero .container .hero_logo .H-logo_info h5 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.hero .container .hero_logo .H-logo_info .animakid {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero .container .hero_logo .H-logo_info .animakid span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+}

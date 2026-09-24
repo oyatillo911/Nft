@@ -1,0 +1,114 @@
+
+.section_one .container {
+    padding: 80px 0px;
+}
+
+.section_one .container .one_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.section_one .container .one_info .one_title h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.section_one .container .one_info .one_title p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.section_one .container .one_info .one_btn button {
+    width: 247px;
+    height: 60px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section_one .container .one_info .one_btn button svg {
+    color: rgba(162, 89, 255, 1);
+    font-size: 20px;
+}
+
+.section_one .container .one_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.section_one .container .one_box .one_cards {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section_one .container .one_box .one_cards .one_number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(43, 43, 43, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+}
+
+.section_one .container .one_box .one_cards .one_number span {
+    color: rgba(133, 133, 132, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Space Mono", monospace;
+
+}
+
+.section_one .container .one_box .one_cards .one_logo {
+    text-align: center;
+}
+
+.section_one .container .one_box .one_cards .one_title {
+    text-align: center;
+}
+
+.section_one .container .one_box .one_cards .one_title h5 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0px 10px 0px;
+    text-transform: capitalize;
+}
+
+.section_one .container .one_box .one_cards .one_title .one_sale {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section_one .container .one_box .one_cards .one_title .one_sale span {
+    color: rgba(133, 133, 132, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section_one .container .one_box .one_cards .one_title .one_sale .eth {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Space Mono", monospace;
+}

@@ -1,0 +1,21 @@
+.Connecthero .hero_top {
+    width: 100%;
+}
+
+.Connecthero .hero_top img {
+    width: 100%;
+}
+
+.Connecthero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Connecthero .container .hero_auction{
+    background-color: rgba(59, 59, 59, 1);
+    padding: 30px;
+}
+.Connecthero .container .hero_auction .hero_clock{
+    display: flex;
+    align-items: center;
+}
