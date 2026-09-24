@@ -18,7 +18,7 @@ function Threesection() {
                         <div className="two_box">
                             <div className="two_cards">
                                 <div className="two_logo">
-                                    <img src="/public/imgs/two_logo.svg" alt="" />
+                                    <img src="/imgs/two_logo.svg" alt="" />
                                 </div>
                                 <div className="two_cards_info">
                                     <h5>Distant Galaxy</h5>
